@@ -11,6 +11,18 @@ A simple shoppingcart implementation for Laravel.
 
 Install the package through [Composer](http://getcomposer.org/). 
 
+Add
+    
+    
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yldbk/LaravelShoppingcart"
+        }
+    ],
+    
+    to composer.json
+    
 Run the Composer require command from the Terminal:
 
     composer require gloudemans/shoppingcart
